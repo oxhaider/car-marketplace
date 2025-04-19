@@ -1,7 +1,19 @@
+/* Tailwind Custom Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 2rem;
-  }
-  
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background-image: url('https://via.placeholder.com/1200x500'); /* Add a background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.car-card img {
+  max-height: 200px;
+  object-fit: cover;
+}
